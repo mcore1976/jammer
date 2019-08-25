@@ -1,5 +1,5 @@
 # jammer
-Very simple 433MHz (EUROPE/ASIA) or 315MHz (USA) RF jammer for wireless car and garage keys
+Very simple 433MHz (EUROPE/ASIA) or 315MHz (USA) RF jammer for keyless cars and garage keys
 
 433/315 MHz key fob jammer based on ATTINY13A and FS1000A RF transmitting module
 PIN B2 of ATTINY13A is connected to DATA IN of FS1000A transmitter board
