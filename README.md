@@ -1,9 +1,9 @@
 # jammer
 Very simple 433MHz (EUROPE/ASIA) or 315MHz (USA) RF jammer for keyless cars and garage keys
 
-433/315 MHz key fob jammer based on ATTINY13A and FS1000A RF transmitting module
-PIN B2 of ATTINY13A is connected to DATA IN of FS1000A transmitter board
-both ATTINY13 and FS1000A are connected to 5V power supply. 
+433/315 MHz key fob jammer based on ATTINY13A and FS1000A RF transmitting module. 
+PIN B2 of ATTINY13A is connected to DATA IN of FS1000A transmitter board.
+Both ATTINY13 and FS1000A are connected to 5V power supply. 
 
 The source code for ATTINY13 is generating set of square waves - 10 sequences of 50 pulses with different width to put enough noise on 433/315Mhz frequency. The device can affectively jam all wireless key fobs in 100 meter range f.ex. in underground garage.
 
