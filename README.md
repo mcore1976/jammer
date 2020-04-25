@@ -11,6 +11,8 @@ Remember to buy appropriate FS1000A version for your location (check frequency).
 
 COMPILATION ON LINUX PC :
 
+Link to video how to program the chip : https://www.youtube.com/watch?v=7klgyNzZ2TI
+
 The script attached in repository ( "compileattiny" ) can be used to upload data to the chip if you have Linux machine with following packages : "gcc-avr", "binutils-avr" (or sometimes just "binutils"), "avr-libc", "avrdude" and optionally "gdb-avr"(debugger only if you really need it) . For example in Ubuntu download these packages using command : "sudo apt-get install gcc-avr binutils-avr avr-libc gdb-avr avrdude". After this is done you can run from directory you downloaded the github files appropriate compilation script by commands
 
     "sudo chmod +rx compileattiny" and "sudo ./compileattiny"
