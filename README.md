@@ -5,7 +5,7 @@ Very simple 433MHz (EUROPE/ASIA) or 315MHz (USA) RF jammer for keyless cars and 
 PIN B2 of ATTINY13A is connected to DATA IN of FS1000A transmitter board.
 Both ATTINY13 and FS1000A are connected to 5V power supply. 
 
-The source code for ATTINY13 is generating set of square waves - 20 sequences of 50 pulses with different width to put enough noise on 433/315Mhz frequency. The device can effectively jam all wireless keys in 100 meter range f.ex. in underground garage.
+The source code for ATTINY13 is generating set of square waves - 50 sequences of 3 pulses each with different width to put enough noise on 433/315Mhz frequency. The device can effectively jam all wireless keys in 100 meter range f.ex. in underground garage.
 
 Remember to buy appropriate FS1000A version for your location (check frequency).
 
