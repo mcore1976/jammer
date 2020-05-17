@@ -35,7 +35,7 @@ int main(void)
         duration = 0;
 
         // generating SQUARE WAVE for FS1000A DATA INPUT
-        // we send 20 sequences of 50 pulses different width ( from 50us to 1 ms )
+        // we send 25 sequences of 10 pulses different width ( from 300us to 1,5 ms )
         // to generate enough distortion on 433 MHz frequency
         
         for(sequence=1; sequence<24; sequence++)
