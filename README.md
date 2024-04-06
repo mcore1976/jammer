@@ -33,3 +33,5 @@ After it is done please use "compileattiny.bat"  for compilation inside director
 PROGRAMMING THE ATTINY / ATMEGA / ARDUINO - connecting cables to the chip :
 
 To upload program code to the chip using cheapest USBASP programmer (less than 2 USD on eBay/Aliexpress) look at this page : http://www.learningaboutelectronics.com/Articles/Program-AVR-chip-using-a-USBASP-with-10-pin-cable.php , because we are not using ARDUINO bootloader here (especially for chips like ATTINY)
+
+To program Digispark - In ARDUINO IDE go to File/Preferences/Additional board manager URL and put this URL : https://raw.githubusercontent.com/ArminJo/DigistumpArduino/master/package_digistump_index.json , then go to Menu Tools/Board and select Digistump AVR Boards / Digispark default 16.5 MHZ
